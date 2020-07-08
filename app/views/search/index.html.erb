@@ -1,0 +1,5 @@
+<%= form_tag search_path, method: 'post' do %>
+  <%= label_tag :patterns %>
+  <%= text_field_tag :patterns %>
+  <%= submit_tag 'submit' %>
+<% end %>

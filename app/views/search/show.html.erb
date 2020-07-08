@@ -1,0 +1,10 @@
+<p>Total: <%= @result.length %> </p>
+<% @result.each do |problem| %>
+  <p><%= problem.id %></p>
+  <p>
+    <%= link_to problem.question_text, question_path(problem) %>
+  </p>
+  <p><%= problem.question_title %></p>
+  <p><%= problem.hashtags %></p>
+  <hr>
+<% end %>
