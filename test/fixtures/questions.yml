@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  question_id: MyString
+  question_text: MyString
+  answer: MyString
+  question_title: MyString
+  hashtags: MyString
+  topics_algebara: MyString
+  topics_trignometry: MyString
+  topics_arithmetric: MyString
+  calculator: MyString
+  answer_type: MyString
+  chart: MyString
+  length: MyString
+
+two:
+  question_id: MyString
+  question_text: MyString
+  answer: MyString
+  question_title: MyString
+  hashtags: MyString
+  topics_algebara: MyString
+  topics_trignometry: MyString
+  topics_arithmetric: MyString
+  calculator: MyString
+  answer_type: MyString
+  chart: MyString
+  length: MyString
