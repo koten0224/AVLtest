@@ -1,0 +1,9 @@
+2020-07-08 12:42:47.397 CST [30296] LOG:  starting PostgreSQL 12.3 on x86_64-apple-darwin19.4.0, compiled by Apple clang version 11.0.3 (clang-1103.0.32.59), 64-bit
+2020-07-08 12:42:47.398 CST [30296] LOG:  listening on IPv6 address "::1", port 5432
+2020-07-08 12:42:47.398 CST [30296] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-07-08 12:42:47.399 CST [30296] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-07-08 12:42:47.418 CST [30297] LOG:  database system was shut down at 2020-07-03 18:21:49 CST
+2020-07-08 12:42:47.424 CST [30296] LOG:  database system is ready to accept connections
+2020-07-08 12:42:56.884 CST [30370] FATAL:  database "avl_test" does not exist
+2020-07-08 12:43:08.853 CST [30440] ERROR:  database "avl_test" already exists
+2020-07-08 12:43:08.853 CST [30440] STATEMENT:  CREATE DATABASE "avl_test" ENCODING = 'utf8'
