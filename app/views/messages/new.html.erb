@@ -1,0 +1,15 @@
+<%= form_tag message_path, method: 'post', remote: true do %>
+
+  <div>
+    <%= label_tag :topic %>
+    <%= text_field_tag :subject %>
+  </div>
+  <div>
+    <%= label_tag :content %>
+    <%= text_area_tag :body %>
+  </div>
+  <div>
+    <%= submit_tag 'submit' %>
+  </div>
+
+<% end %>
