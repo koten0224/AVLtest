@@ -9,7 +9,7 @@
     "@rails/webpacker": "4.2.2",
     "bootstrap": "^4.5.0",
     "jquery": "^3.5.1",
-    "nodemailer": "^6.4.10",
+    "nodemailer": "^6.4.16",
     "popper.js": "^1.16.1",
     "stimulus": "^1.1.1",
     "turbolinks": "^5.2.0"
